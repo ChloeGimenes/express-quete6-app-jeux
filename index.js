@@ -137,7 +137,7 @@ app.delete("/api/techno/:id", (req, res) => {
   });
 });
 
-app.delete("/api/techno/deletesuccessful/:is", (req, res) => {
+app.delete("/api/techno/deletesuccessful/:is_successful", (req, res) => {
   // Get the data sent
   const idTechno = req.params.is_successful;
 
